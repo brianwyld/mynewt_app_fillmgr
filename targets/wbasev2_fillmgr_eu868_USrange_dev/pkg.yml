@@ -1,0 +1,12 @@
+pkg.name: targets/wbasev2_fillmgr_eu868_USrange_dev
+pkg.type: target
+pkg.description: WBase V2 based fillmgr target for EU868 with US distance sensor
+pkg.author: 
+pkg.homepage: 
+
+
+pkg.deps:
+    - "@app-generic/app-core"
+    - "@app-generic/mod-env"
+
+pkg.cflags: -DREGION_EU868
