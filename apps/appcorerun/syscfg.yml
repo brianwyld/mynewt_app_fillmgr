@@ -22,16 +22,8 @@ syscfg.defs:
         value: 0
 
     US_RANGER_ENABLED:
-        description: "Enable a ultrasonic ranger"
+        description: "Is US enabled"
         value: 1
-
-    US_RANGER_TRIG_GPIO:
-        description: "GPIO pin number for US trig line"
-        value: -1
-
-    US_RANGER_ECHO_GPIO:
-        description: "GPIO pin number for US echo line"
-        value: -1
 
     FULL_LEVEL:
         description: "value in cm by default of the measured distance at which the container is considered to be FULL"
